@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mon projet Daft Punk</title>
+<link href="styles.css" rel = "stylesheet" type="text/css">
+</head>
+
+<body>
+    <h1>Mon projet Daft Punk</h1>
+
+  <audio id="work_it">
+    <source src="audio/work_it.wav" type="audio/wav">
+  </audio>
+
+  <audio id="harder">
+    <source src="audio/harder.wav" type="audio/wav">
+  </audio>
+
+  <audio id="make_it">
+    <source src="audio/make_it.wav" type="audio/wav">
+  </audio>
+
+  <audio id="better">
+    <source src="audio/better.wav" type="audio/wav">
+  </audio>
+
+  <audio id="do_it">
+    <source src="audio/do_it.wav" type="audio/wav">
+  </audio>
+
+  <audio id="faster">
+    <source src="audio/faster.wav" type="audio/wav">
+  </audio>
+
+  <audio id="makes_us">
+    <source src="audio/makes_us.wav" type="audio/wav">
+  </audio>
+
+  <audio id="stronger">
+    <source src="audio/stronger.wav" type="audio/wav">
+  </audio>
+
+  <audio id="more_than">
+    <source src="audio/more_than.wav" type="audio/wav">
+  </audio>
+
+  <audio id="ever">
+    <source src="audio/ever.wav" type="audio/wav">
+  </audio>
+
+  <audio id="hour">
+    <source src="audio/hour.wav" type="audio/wav">
+  </audio>
+
+  <audio id="after">
+    <source src="audio/after.wav" type="audio/wav">
+  </audio>
+
+  <audio id="our">
+    <source src="audio/our.wav" type="audio/wav">
+  </audio>
+
+  <audio id="work_is">
+    <source src="audio/work_is.wav" type="audio/wav">
+  </audio>
+
+  <audio id="never">
+    <source src="audio/never.wav" type="audio/wav">
+  </audio>
+
+  <audio id="over">
+    <source src="audio/over.wav" type="audio/wav">
+  </audio>
+
+          
+        <p>
+            <button class="btn1" onclick="playAudio('work_it')">Work it</button>
+            <button class="btn1" onclick="playAudio('make_it')">Make it</button>
+        </p>
+
+        <p>
+            <button class="btn2" onclick="playAudio('do_it')">Do it</button>
+            <button class="btn2" onclick="playAudio('makes_us')">Makes us</button>
+        </p>
+
+        <p>
+            <button class="btn3" onclick="playAudio('harder')">Harder</button>
+            <button class="btn3" onclick="playAudio('better')">Better</button>
+        </p>
+
+        <p>
+            <button class="btn4" onclick="playAudio('faster')">Faster</button>
+            <button class="btn4" onclick="playAudio('stronger')">Stronger</button>
+        </p>
+
+        <p>
+            <button class="btn5" onclick="playAudio('more_than')">More Than</button>
+            <button class="btn5" onclick="playAudio('hour')">Hour</button>
+        </p>
+        <p>
+            <button class="btn6" onclick="playAudio('our')">Our</button>
+            <button class="btn6" onclick="playAudio('never')">Never</button>
+        </p>
+
+        <p>
+            <button class="btn7" onclick="playAudio('ever')">Ever</button>
+            <button class="btn7" onclick="playAudio('after')">After</button>
+        </p>
+
+        <p>
+            <button class="btn8" onclick="playAudio('work_is')">Work is</button>
+            <button class="btn8" onclick="playAudio('over')">Over</button>
+        </p>
+
+      
+</body>
+<script src="script.js"></script>
+<script>
+    // Fonction pour précharger tous les audios
+    function preloadAudio() {
+        var audioElements = document.getElementsByTagName('audio');
+        for (var i = 0; i < audioElements.length; i++) {
+            audioElements[i].preload = 'auto';
+            audioElements[i].load();
+        }
+    }
+
+    // Appeler la fonction de préchargement au chargement de la page
+    window.addEventListener('load', preloadAudio);
+</script>
+</html>

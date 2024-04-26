@@ -1,0 +1,69 @@
+.btn1{
+    padding: 15px; 
+    margin: 10px; 
+    font-size: 35px;
+    width: 100%;
+    font-weight: bold;
+}
+.btn2{
+    padding: 15px; 
+    margin: 10px; 
+    font-size: 35px;
+    width: 100%;
+    font-weight: bold;
+}
+.btn3{
+    padding: 15px; 
+    margin: 10px; 
+    font-size: 35px;
+    width: 100%;
+    font-weight: bold;
+}
+.btn4{
+    padding: 15px; 
+    margin: 10px; 
+    font-size: 35px;
+    width: 100%;
+    font-weight: bold;
+}
+.btn5{
+    padding: 15px; 
+    margin: 10px; 
+    font-size: 35px;
+    width: 100%;
+    font-weight: bold;
+}
+.btn6{
+    padding: 15px; 
+    margin: 10px; 
+    font-size: 35px;
+    width: 100%;
+    font-weight: bold;
+}
+.btn7{
+    padding: 15px; 
+    margin: 10px; 
+    font-size: 35px;
+    width: 100%;
+    font-weight: bold;
+}
+.btn8{
+    padding: 15px; 
+    margin: 10px; 
+    font-size: 35px;
+    width: 100%;
+    font-weight: bold;
+}
+
+
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
