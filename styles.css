@@ -1,5 +1,5 @@
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) { */
     /* css mobile */
 .btn1{
     padding: 15px; 
@@ -65,10 +65,10 @@
     height: 150px;
     font-weight: bold;
 }
-}
+/* } */
 
-@media (min-width: 769px) {
-    /* Styles pour les ordinateurs */
+   /* Styles pour les ordinateurs */
+/* @media (min-width: 769px) {
     .btn1{
         padding: 15px; 
         margin: 10px; 
@@ -125,7 +125,7 @@
         width: 100%;
         font-weight: bold;
     }
-}
+} */
 
 body{
     background-color: black;
